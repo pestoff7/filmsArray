@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">filmsArray</string>
+    <string-array name="countries">
+        <item>Отечественное</item>
+        <item>Зарубежное</item>
+    </string-array>
+    <string-array name="genreFilms">
+        <item>Комедия</item>
+        <item>Мелодрама</item>
+        <item>Боевик</item>
+        <item>Детектив</item>
+        <item>Приключения</item>
+    </string-array>
+    <string name="Comedy">Елки\nДень радио</string>
+    <string name="Melodrama">Любовь и голуби\nМосква слезам не верит</string>
+    <string name="Action">Хардкор\nЗвезда</string>
+    <string name="Detective">Совесть\nПротивостояние</string>
+    <string name="Adventure">Елки\nДень радио</string>
+    <string name="showArrayList">Показать список</string>
+</resources>

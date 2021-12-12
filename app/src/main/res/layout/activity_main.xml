@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/arrayListCountries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/countries"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/arrayListSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/genreFilms"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnShow"
+        android:onClick="showArrayList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showArrayList"
+        android:layout_marginStart="10dp"
+        tools:ignore="UsingOnClickInXml" />
+    <TextView
+        android:id="@+id/arrayList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="10dp"/>
+
+</LinearLayout>
